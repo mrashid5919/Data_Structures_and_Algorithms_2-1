@@ -66,7 +66,7 @@ public class BST <T extends Comparable<T>>{
             return null;
         if(rt.element().compareTo(k)>0)
             rt.setLeft(removehelp(rt.left(),k));
-        else if (rt.element().compareTo(k) < 0)
+        else if (rt.element().compareTo(k)<0)
             rt.setRight(removehelp(rt.right(), k));
         else{
             if(rt.left()==null)
