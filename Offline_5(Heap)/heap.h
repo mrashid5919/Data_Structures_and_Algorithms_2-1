@@ -79,11 +79,15 @@ class Heap
 
     int getMax()
     {
+        if(n<=0)
+            cout<<"Heap is Empty"<<"\n";
         return ara[1];
     }
 
     int deleteKey()
     {
+        if(n<=0)
+            cout<<"Heap is Empty"<<"\n";
         int rt=ara[1];
         swap(ara[1],ara[n]);
         n--;
