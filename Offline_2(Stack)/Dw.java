@@ -23,7 +23,7 @@ public class Dw {
 
         //Linked list based implementation
         /*StackADT<Tasks> dirtyStack=new LL<>();
-        StackADT<Integer> cleanStack=new LL<>();
+        StackADT<Tasks> cleanStack=new LL<>();
         StackADT<Integer> fullMeal=new LL<>();*/
 
         //2 stack 1 array implementation
